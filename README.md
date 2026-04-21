@@ -93,8 +93,8 @@ Lightweight and beginner-friendly.
 
 **Output:**  
 ```
-Predicted Class: Ice Cream 🍨
-Confidence: XX%
+Predicted Class: Ice Cream 
+Confidence: 59%
 ```
 
 ---
@@ -121,8 +121,8 @@ Confidence: XX%
 ##  How to Run
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/ashutosh-kedar/pytorch_cv_food_101_tiny_vgg.git
+cd pytorch_cv_food_101_tiny_vgg
 ```
 
 Run notebooks in order:
