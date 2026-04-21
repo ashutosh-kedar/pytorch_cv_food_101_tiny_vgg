@@ -1,22 +1,22 @@
-# 🍔 TinyVGG on Food-101 — PyTorch Project
+# TinyVGG on Food-101 — PyTorch Project
 
 A complete **end-to-end deep learning pipeline** built using **PyTorch**, where a TinyVGG-style CNN is trained on a custom-structured subset of the Food-101 dataset and used for real-world image inference.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This repository walks through the **full lifecycle of a computer vision model**:
 
-- 📥 Dataset downloading & structuring  
-- 🧠 Model building & training (TinyVGG)  
-- 🔮 Inference on custom images  
+-  Dataset downloading & structuring  
+- Model building & training (TinyVGG)  
+- Inference on custom images  
 
 Built with a focus on **understanding core PyTorch concepts without abstraction layers**.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── 06_PyTorch_Download_Custom_Dataset.ipynb
@@ -30,9 +30,9 @@ Built with a focus on **understanding core PyTorch concepts without abstraction 
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 
-### 1️⃣ Dataset Preparation  
+### 1. Dataset Preparation  
 **06_PyTorch_Download_Custom_Dataset.ipynb**
 
 - Downloads Food-101 dataset  
@@ -46,7 +46,7 @@ Built with a focus on **understanding core PyTorch concepts without abstraction 
 
 ---
 
-### 2️⃣ Model Training  
+### 2. Model Training  
 **07_PyTorch_Train_Tiny_VGG.ipynb**
 
 - Implements TinyVGG from scratch  
@@ -62,7 +62,7 @@ Built with a focus on **understanding core PyTorch concepts without abstraction 
 
 ---
 
-### 3️⃣ Model Inference  
+### 3. Model Inference  
 **08_PyTorch_Model_Inference.ipynb**
 
 - Loads saved model  
@@ -74,7 +74,7 @@ Built with a focus on **understanding core PyTorch concepts without abstraction 
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 TinyVGG (inspired by VGG):
 
@@ -86,7 +86,7 @@ Lightweight and beginner-friendly.
 
 ---
 
-## 📸 Example Inference
+## Example Inference
 
 **Input:**  
 `Ice_cream.jpg`
@@ -99,7 +99,7 @@ Confidence: XX%
 
 ---
 
-## 💡 Key Learnings
+##  Key Learnings
 
 - Building CNNs from scratch in PyTorch  
 - Structuring custom datasets  
@@ -109,7 +109,7 @@ Confidence: XX%
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - Python  
 - PyTorch  
@@ -118,7 +118,7 @@ Confidence: XX%
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
@@ -133,7 +133,7 @@ Run notebooks in order:
 
 ---
 
-## 🌟 Highlights
+##  Highlights
 
 - Pure PyTorch (no high-level frameworks)  
 - Clear pipeline: Data → Training → Inference  
@@ -141,19 +141,12 @@ Run notebooks in order:
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Use GPU for faster training  
 - You can test your own images by replacing `Ice_cream.jpg`  
 
----
 
-## 🤝 Contributing
 
-Feel free to fork, experiment, and improve!
 
----
 
-## ⭐ Support
-
-If you found this helpful, consider giving the repo a star!
